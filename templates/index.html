@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Recommendation</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-image: url('/static/bg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #fff;
+            text-align: center;
+            padding-top: 100px;
+            margin: 0;
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            margin: auto;
+            width: 90%;
+            max-width: 500px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+        }
+        input[type="text"] {
+            padding: 10px;
+            margin: 10px;
+            width: 80%;
+            border-radius: 8px;
+            border: none;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #00c853;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        input[type="submit"]:hover {
+            background-color: #00e676;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Customer Segmentation & Recommendation System</h2>
+        <form action="/recommend" method="post">
+            <input type="text" name="customer_id" placeholder="Enter Customer ID" required><br>
+            <input type="submit" value="Get Recommendation">
+        </form>
+    </div>
+</body>
+</html>
