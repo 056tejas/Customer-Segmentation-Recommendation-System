@@ -92,6 +92,11 @@ The CSV output includes enriched records with:
 
 ---
 
+## License
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
+---
+
 ## 📬 Contact
 
 **Tejas Jain**  
